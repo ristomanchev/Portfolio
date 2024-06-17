@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<nav id="navbar" class="dropdown-menu">
+    <ul>
+        <li><button onclick="toggleTheme()" id="theme">Switch Theme</button></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="hobbies.html">Hobbies</a></li>
+        <li id="underline"><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+<hr>
+<section id="contact">
+    <h1>Contact me</h1>
+    <div>
+        <ul id="socials">
+            <li><a href="https://www.facebook.com/mancev99" target="_blank"><img src="facebook.png" alt="fb" class="icon"></a></li>
+            <li><a href="https://www.instagram.com/mancev99/" target="_blank"><img src="instagram-logo.png" alt="ig" class="icon"></a></li>
+            <li><a href="https://x.com/riste07" target="_blank"><img src="twitter.png" alt="x" class="icon"></a></li>
+            <li><a href="https://www.youtube.com/@ristehd4111/featured" target="_blank"><img src="youtube.png" alt="yt" class="icon"></a></li>
+        </ul>
+    </div>
+</section>
+<section id="form-width">
+<form action="" method="post" id="form">
+    <div>
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+    </div>
+    <div>
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+    <div>
+        <label for="subject">Subject:</label>
+        <input type="text" id="subject" name="subject">
+    </div>
+    <div>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+    </div>
+    <button type="submit">Send Message</button>
+</form>
+</section>
+<hr>
+<footer>
+    <p>&copy; 2024 Risto Manchev. All rights reserved</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
